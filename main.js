@@ -103,6 +103,7 @@ function respostaSelecionada(opcaoSelecionada) {
     atual++;
     mostraPergunta();
 }
+mostraPergunta();
 
 function mostraResultado() {
     caixaPerguntas.textContent = "Em 2049...";
